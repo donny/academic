@@ -1,0 +1,201 @@
+/*   
+Theme Name: mnmlist
+Theme URI: http://mnmlist.com/theme/
+Author: Leo Babauta
+Author URI: http://mnmlist.com
+This theme is uncopyrighted, free, and offered as is.
+
+Modified by Donny Kurniawan
+*/
+
+#container {
+	width: 700px;
+	overflow: hidden;
+	}
+
+body {
+	background:#fff;
+	font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: .8em;
+	line-height: 1.4em;
+	margin:20px;
+	}
+	
+h1 {
+	font-size: 18pt;
+	color:#000000;
+	}
+
+h2 {
+	font-size: 14pt;
+	color:#333;
+	line-height:30px;
+	font-weight:normal;
+	}
+
+h3 {
+	font-size: 9pt;
+	color:#000000;
+	}
+
+h4 {
+	font-size: 9pt;
+	color:#000000;
+	}
+
+h5 {
+	font-size: 9pt;
+	color:#000000;
+	}
+
+img {
+	border:none;
+	}
+	
+img a {
+	border:none;
+	}
+	
+blockquote {
+	border-left:1px solid #A5ABAB;
+	margin:0px;
+	padding:0 12px 0 12px;
+	}
+
+p {
+	color:#000000;
+	line-height: 14pt;
+	margin:12px 0;
+	}
+
+a {
+	text-decoration: none;
+	}
+	
+a:link {
+	color: #333;
+	text-decoration: none;
+	}
+	
+a:visited {
+	color: #333;
+	text-decoration: none;
+	}
+	
+a:hover {
+	color: #999;
+	text-decoration: none;
+	}
+
+ul {
+	padding: .5em 0em 1em 3.2em;
+	}
+	
+ol {
+	padding: .5em 0em 0em 3.2em;
+	}
+	
+li {
+	line-height: 18px;
+	padding: 6px 0 0 0;
+	}
+
+/* HEADER */
+
+#header h1 {
+	padding: 0 0 0 0;
+	margin:0;
+	color: #333;
+	font: Helvetica, sans-serif;
+	font-size: 16pt;
+	font-weight: normal;
+	}
+	
+#header h2 {
+	padding: 45px 0 0 0;
+	margin:0;
+	color: #777777;
+	font-size: 24pt;
+	}
+	
+#header h3 {
+	padding: 5px 0 20px 0;
+	margin:0;
+	color: #777777;
+	font-weight: normal;
+	font-size: 12pt;
+	}
+
+/* CONTENT */
+
+#content {
+	float: right;
+	width:530px;
+	overflow: hidden;
+	margin-top:80px;
+	margin-left:14px;
+	margin-right:14px;
+	margin-bottom:24px;
+	}
+	
+#content a {
+	text-decoration: none;
+	border-width: 0 0 1px 0;
+	border-style: none none solid none;
+	}
+
+/* SIDEBAR */
+		
+#sidebar {
+	width:190px;
+	float:left;
+	text-align:left;
+	color: #666;
+	margin-top:90px;
+	}
+	
+#sidebar ul {
+	margin:0px;
+	padding:0;
+	}
+	
+#sidebar ul li {
+	margin: 5px 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 10pt;
+	font-weight: normal;
+	line-height:14px;
+	}
+	
+#sidebar h4{
+	margin:0;
+	font-weight: normal;
+	font-size: 8 pt;
+	color: #999;
+	}
+
+/* FOOTER */
+
+#footer {
+	background:#fff;
+	clear: both;
+	width: 100%;
+	}
+	
+#footer p {
+	padding:14px 0;
+	margin: 0;
+	color: #666;
+	text-align:center;
+	}
+	
+#footer a {
+	color: #666;
+	text-decoration: none;
+	}
+	
+#footer a:hover {
+	color: #000000;
+	text-decoration: none;
+	}
